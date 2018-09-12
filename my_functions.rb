@@ -19,3 +19,7 @@ def find_item(houses,input)
   end
   return false
 end
+
+def get_first_key(array)
+  return array.keys.first()
+end
